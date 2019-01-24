@@ -1,0 +1,15 @@
+package org.apex.assignment;
+
+public class BasicArray {
+
+	public static void main(String[] args) {
+		int numbers[] = {23,34,53,233,344,3436,34,323,500,1000};
+		System.out.println("index\tvalues");
+		
+		for(int i=0; i<numbers.length;i++) {
+			System.out.print(i+"\t");
+			System.out.println(numbers[i]);
+		}
+	}
+
+}
