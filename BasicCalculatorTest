@@ -1,0 +1,13 @@
+package org.apex.assignment;
+
+public class BasicCalculatorTest {
+
+	public static void main(String[] args) {
+		BasicCalculator calc = new BasicCalculator();
+		System.out.println(calc.add(23, 12));
+		System.out.println(calc.substract(23, 12));
+		System.out.println(calc.multiply(23, 12));
+		System.out.printf("%.2f",calc.divide(23, 12));
+	}
+
+}
