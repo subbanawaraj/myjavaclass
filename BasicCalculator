@@ -1,0 +1,27 @@
+package org.apex.assignment;
+
+public class BasicCalculator {
+
+	double result;
+	
+	public double add(double n1, double n2) {
+		result = n1 + n2;
+		return result;
+	}
+	
+	public double substract(double n1, double n2) {
+		result = n1 - n2;
+		return result;
+	}
+	
+	public double multiply(double n1, double n2) {
+		result = n1 * n2;
+		return result;
+	}
+	
+	public double divide(double n1, double n2) {
+		result = n1 / n2;
+		return result;
+	}
+	
+}
